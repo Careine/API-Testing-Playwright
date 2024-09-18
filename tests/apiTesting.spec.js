@@ -2,7 +2,7 @@
 // @ts-ignore
 const { test, expect, request } = require('@playwright/test');
 import config from '../playwright.config';
-import generateFormData from '../tests/fixtures/faker.js';
+import generateFormData from '../fixtures/faker.js'
 
 const baseURL = config.use?.baseURL || '';
 
