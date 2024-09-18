@@ -5,7 +5,7 @@ function generateFormData() {
         job: faker.person.jobTitle(),
         email : faker.internet.email(),
         password : faker.internet.password()
-    };
+    }
 }
 
 export default generateFormData;
